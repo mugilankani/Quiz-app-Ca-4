@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap');
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0;
+  /* text-align: center; */
+  width: 100vw;
+  height: 100vh;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: Jost; */
+  }
+  .body{
+  background-color: #017BFE;
+    height: 100vh;
+    width: 100vw;
+
+  }
+
+  .Questions{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
+  .darkBtn{
+    padding: 0.5rem 1.5rem;
+    margin-left: 90vw;
+  }
+ *{
+    font-family: Jost ;
+  }
+  .resutText{
+    text-align: start;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .ResultBack{
+    background-color: #017BFD;
+    height: 100vh;
+    width: 100vw;
+  }
+  .LightDarkButton{
+    padding: 0.6rem 1.5rem;
+    text-align: end;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(25, 24, 24);
+    margin-right: 10rem;
+    
+  }
+  button{
+    cursor: pointer;
+  }
+  .highlightBtn{
+    /* align-content: center; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .lightButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .resultBox{
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 30px black;
+  }
+  .playAgain{
+    font-size: 2rem;
+    margin: 0;
+    border: 0;
+    border-radius: 1.3rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #017BFD;
+    color: white;
+  }
+  .Statement{
+    margin-top: 3rem;
+  }
+  .resultBox{
+    background-color: #FFFFFF;
+    height: 60vh;
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .resultBox{
+    text-align: center;
+  }
+  .scoreinPer{
+    font-size: 3rem;
+  }
+  .resultScore{
+    font-size: 4rem;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    height: 75%;
+    text-align: none;
+
+
+  }
+  .flex button{
+    text-align:start;
+    height: 7vh;
+    padding: 0.5rem 1.3rem;
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid #C8E4FC;
+    /* padding-left: 1rem; */
+    background-color: #EFF8FF;
+    font-size: 1.6rem;
+  }
+
+
+.quizBox{
+  width: 80vw;
+  height: 80vh;
+  margin-left: 10vw;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 2rem rgb(23, 22, 22);
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  /* padding: 2rem; */
+  justify-content: center;
+}
+.boxed{
+  /* margin-top: 2rem; */
+  margin: 3rem;
+  margin-left: 4rem;
+  /* background-color: red; */
+  width: 100%;
+  height: 90%;
+}
+.NumberOf{
+  text-align: end;
+  margin: 0;
+}
+.NumberOf h3{
+  margin: 0;
+}
+button{
+  margin: 0;
+  padding: 0;
+}
+.lightbtn{
+  padding: 0.5rem;
+  background-color: red;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.3rem 1.5rem;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(165, 102, 102);
+}
